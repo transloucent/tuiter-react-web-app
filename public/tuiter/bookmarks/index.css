@@ -1,0 +1,105 @@
+.wd-color-red {
+    color: red;
+}
+
+.wd-title-top {
+    top: 12px
+}
+
+.wd-title-20 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wd-user-name {
+    color: lightgray;
+    font-size: 13px;
+}
+
+.wd-class-border-3 {
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    width: 600px;
+    height: auto;
+}
+
+.wd-class-border-4 {
+    border: rgb(47, 51, 54) 1px solid;
+    height: auto;
+    border-radius: 10px;
+}
+
+.wd-image-dimensions {
+    height: 48px;
+    width: 48px;
+}
+
+.wd-image-dimensions-2 {
+    height: 264px;
+    width: 504px;
+}
+
+.wd-bookmark-padding {
+    padding-left: 12px;
+}
+
+.wd-user-name-large {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wd-bookmark-tuit-text {
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+}
+
+.wd-bookmark-tuit-text-2 {
+    font-size: 15px;
+    font-weight: normal;
+    color: lightgray;
+}
+
+.wd-author-text-large {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-max-text-width {
+    width: 506px;
+}
+
+.wd-max-text-width-2 {
+    width: 480px;
+}
+
+.wd-text-wrap {
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.wd-rounded-corners-20 {
+    border-radius: 30px;
+}
+
+.wd-padding-around {
+    padding: 12px;
+}
+
+.wd-icon-spacing-1 {
+    position: relative;
+    left: 50px;
+}
+
+.wd-icon-spacing-2 {
+    position: relative;
+    left: 100px;
+}
+
+.wd-icon-spacing-3 {
+    position: relative;
+    left: 150px;
+}

@@ -1,0 +1,127 @@
+.fg-color-white { color: white }
+.fg-color-blue-highlight { color: rgb(29, 161, 242) }
+.fg-color-non-highlight { color: rgb(110, 118, 125) }
+
+.bg-color-darkgray { color: darkgray }
+.bg-color-black { background: black }
+
+body {
+    background: black;
+}
+
+input {
+    width: 450px;
+    height: 25px;
+}
+
+.wd-remove-underscore {
+    text-decoration: none;
+}
+
+.wd-offset-left {
+    position: relative;
+    left: 16px;
+}
+
+.wd-offset-right {
+    position: relative;
+    right: 12px;
+}
+
+.wd-offset-right-16 {
+    position: relative;
+    right: 16px;
+}
+
+.wd-class-border-1 {
+    border-color: rgb(47, 51, 54);
+    padding-bottom: 50px;
+    border-width: 1px;
+    border-style: solid;
+    width: 600px;
+    height: auto;
+}
+
+.wd-class-border-trending {
+    border-color: rgb(47, 51, 54);
+    padding-bottom: 6px;
+    border-width: 1px;
+    border-style: solid;
+    width: 600px;
+    height: auto;
+}
+
+.wd-class-border-2 {
+    border-color: rgb(47, 51, 54);
+    padding-bottom: 35px;
+    border-width: 1px;
+    border-style: solid;
+    width: 600px;
+    height: auto;
+}
+
+.wd-font-padding {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 16px;
+    border-bottom: solid rgb(110, 118, 125) 1px;
+}
+
+.wd-font-underline {
+    text-decoration: underline solid rgb(29, 161, 242) 4px;
+    text-underline-offset: 14px;
+}
+
+.wd-rounded-borders {
+    border-radius: 50px;
+}
+
+.wd-class-selector {
+    color: white;
+    background: darkgray;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-topic-text-big {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-topic-text-small {
+    font-size: 12px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-author-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-after-overflow: break-word;
+    width: 400px;
+}
+
+.wd-padding-top {
+    padding-top: 12px;
+}
+
+.wd-heading-text {
+    font-size: 12px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-image-dimensions {
+    height: 100px;
+    width: 100px;
+}
+
+.wd-rounded-corners-30 {
+    border-radius: 10px;
+}
