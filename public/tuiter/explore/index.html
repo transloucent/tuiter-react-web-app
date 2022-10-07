@@ -7,71 +7,205 @@
           rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
           crossorigin="anonymous">
-    <link href="index.css"
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
           rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    <link href="index.css"
           rel="stylesheet"/>
 </head>
 <body>
-<div class="wd-class-border-1">
-    <label id="search">
-        <input class="wd-offset-left wd-class-selector wd-rounded-borders"
-               placeholder="Search Tuiter"/>
-    </label>
-    <a class="wd-float-right wd-offset-right wd-remove-underscore" href="explore-settings.html">
-        &#x2699;
-    </a>
+<div class="container">
+    <div class="row">
+        <div class="pr-4 pt-2 col-2 col-lg-1 col-xl-2 text-left text-white">
+            <ul class="nav flex-column nav-pills">
+                <div class="border d-block d-sm-block d-xl-none">
+                    <a class="border-bottom nav-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="border-bottom nav-link" href="home.html"><i class="fas fa-home"></i></a>
+                    <a class="border-bottom nav-link active" href="explore.html"><i class="fas fa-hashtag"></i></a>
+                    <a class="border-bottom nav-link" href="notifications.html"><i class="fas fa-bell"></i></a>
+                    <a class="border-bottom nav-link" href="messages.html"><i class="fas fa-envelope"></i></a>
+                    <a class="border-bottom nav-link" href="bookmarks.html"><i class="fas fa-bookmark"></i></a>
+                    <a class="border-bottom nav-link" href="list.html"><i class="fas fa-list"></i></a>
+                    <a class="border-bottom nav-link" href="people.html"><i class="fas fa-user"></i></a>
+                    <a class="border-bottom nav-link" href="more.html"><i class="fas fa-ellipsis"></i></a>
 
-    <div>
-        <span class="wd-float-left wd-font-padding wd-font-underline fg-color-blue-highlight">
-            <a class="wd-remove-underscore" href="">For you</a>
-        </span>
-        <span class="wd-float-left wd-font-padding fg-color-non-highlight">
-            <a class="wd-remove-underscore" href="">Trending</a>
-        </span>
-        <span class="wd-float-left wd-font-padding fg-color-non-highlight">
-            <a class="wd-remove-underscore" href="">COVID-19</a>
-        </span>
-        <span class="wd-float-left wd-font-padding fg-color-non-highlight">
-            <a class="wd-remove-underscore" href="">News</a>
-        </span>
-        <span class="wd-float-left wd-font-padding fg-color-non-highlight">
-            <a class="wd-remove-underscore" href="">Sports</a>
-        </span>
-        <span class="wd-float-left wd-font-padding fg-color-non-highlight">
-            <a class="wd-remove-underscore" href="">Entertainment</a>
-        </span>
+                </div>
+                <div class="border d-none d-xl-block">
+                    <a class="border-bottom nav-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="border-bottom nav-link" href="home.html"><i class="fas fa-home"></i> Home</a>
+                    <a class="border-bottom nav-link active" href="explore.html"><i class="fas fa-hashtag"></i> Explore</a>
+                    <a class="border-bottom nav-link" href="notifications.html"><i class="fas fa-bell"></i> Notifications</a>
+                    <a class="border-bottom nav-link" href="messages.html"><i class="fas fa-envelope"></i> Messages</a>
+                    <a class="border-bottom nav-link" href="bookmarks.html"><i class="fas fa-bookmark"></i> Bookmarks</a>
+                    <a class="border-bottom nav-link" href="list.html"><i class="fas fa-list"></i> List</a>
+                    <a class="border-bottom nav-link" href="people.html"><i class="fas fa-user"></i> People</a>
+                    <a class="border-bottom nav-link" href="more.html"><i class="fas fa-ellipsis"></i> More</a>
+                </div>
+                <button class="p-2 btn btn-primary override-bs" href="#">Tweet</button>
+            </ul>
+        </div>
+        <div class="col-10 col-lg-7 col-xl-6 text-black">
+            <i class="position-absolute m-3 fas fa-search"></i>
+            <input type="text"
+               class="wd-form-control mb-2 mt-2 border rounded-pill"
+               placeholder="Search Tuiter">
+            <a href="explore-settings.html"><i class="wd-icon-center fa-2x fas fa-gear"></i></a>
+            <div class="d-none d-md-block">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">For You</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-block d-md-none">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">For You</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                </ul>
+            </div >
+
+            <div class="position-relative text-light">
+                <span class="position-absolute bottom-0 fs-1">SpaceX's Starship</span>
+                <img class="img-fluid" src="starship-x.png">
+            </div>
+
+            <div class="border">
+                <img class="mt-2 me-2 wd-image-small" src="react-js.png">
+                <div class="ms-3 mt-2 mb-2">
+                    <span class="fs-6 text-secondary">
+                        Web Development
+                    </span><br/>
+                    <span class="fs-6 fw-bold">React JS <i class="fa fa-circle-check"></i>
+                        <span class="fs-6 m-1 fw-lighter text-secondary">- 2h</span>
+                    </span>
+                    <span class="d-block text-wrap fs-6 fw-bold">
+                        React JS is a component based front end library that makes it very easy to build Single Page Applications or SPAs
+                    </span>
+                </div>
+            </div>
+            <div class="border">
+                <img class="mt-2 me-2 wd-image-small" src="javascript.png">
+                <div class="ms-3 mt-2 mb-2">
+                    <span class="fs-6 fw-bold">JavaScript <i class="fa fa-circle-check"></i>
+                        <span class="fs-6 m-1 fw-lighter text-secondary">- 2h</span>
+                    </span>
+                    <span class="d-block text-wrap fs-6 fw-bold">
+                        Javascript is a programming language that can run on browsers as well as desktops.
+                    </span>
+                </div>
+            </div>
+            <div class="border">
+                <img class="mt-2 me-2 wd-image-small" src="jquery.png">
+                <div class="ms-3 mt-2 mb-2">
+                    <span class="fs-6 text-secondary">
+                        Web Development
+                    </span><br/>
+                    <span class="fs-6 fw-bold">jQuery</span>
+                    <span class="d-block fs-6 text-secondary">
+                        123K Tuits
+                    </span>
+                </div>
+            </div>
+            <div class="border">
+                <img class="mt-2 me-2 wd-image-small" src="node-js.png">
+                <div class="ms-3 mt-2 mb-2">
+                    <span class="fs-6 text-secondary">
+                        Web Development
+                    </span><br/>
+                    <span class="fs-6 fw-bold">NodeJS <i class="fa fa-circle-check"></i></span>
+                    <span class="d-block fs-6 text-secondary">
+                        123K Tuits
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-lg-block p-2 col-0 col-lg-4 text-wrap text-left text-black">
+            <div class="border p-2">
+                <span class="wd-font-small fw-bold">Who to Follow</span>
+            </div>
+            <div class="col border border-top-0 p-2">
+                <span>
+                    <button class="mt-1 p-1 btn btn-primary override-bs-2" href="#">
+                        Follow
+                    </button>
+                    <img src="java.png" class="wd-image-rounded">
+                    <span class="wd-font-small">
+                        <span class="m-4 fw-bold">Java <i class="fa fa-circle-check"></i><br></span>
+                        <span class="m-4 fw-light">@Java</span>
+                    </span>
+                </span>
+            </div>
+            <div class="col border border-top-0 p-2">
+                <span>
+                    <button class="mt-1 p-1 btn btn-primary override-bs-2" href="#">
+                        Follow
+                    </button>
+                    <img src="relativity-space.png" class="wd-image-rounded">
+                    <span class="wd-font-small">
+                        <span class="m-4 fw-bold">Relativity Space <i class="fa fa-circle-check"></i><br></span>
+                        <span class="m-4 fw-light">@relativityspace</span>
+                    </span>
+                </span>
+            </div>
+            <div class="col border border-top-0 p-2">
+                <span>
+                    <button class="mt-1 p-1 btn btn-primary override-bs-2" href="#">
+                        Follow
+                    </button>
+                    <img src="virgin-galactic.png" class="wd-image-rounded">
+                    <span class="wd-font-small">
+                        <span class="m-4 fw-bold">Virgin Galactic <i class="fa fa-circle-check"></i><br></span>
+                        <span class="m-4 fw-light">@virgingalactic</span>
+                    </span>
+                </span>
+            </div>
+            <div class="col border border-top-0 p-2">
+                <span>
+                    <button class="mt-1 p-1 btn btn-primary override-bs-2" href="#">
+                        Follow
+                    </button>
+                    <img src="nasa.jpg" class="wd-image-rounded">
+                    <span class="wd-font-small">
+                        <span class="m-4 fw-bold">NASA <i class="fa fa-circle-check"></i><br></span>
+                        <span class="m-4 fw-light">@NASA</span>
+                    </span>
+                </span>
+            </div>
+            <div class="col border border-top-0 p-2">
+                <span>
+                    <button class="mt-1 p-1 btn btn-primary override-bs-2" href="#">
+                        Follow
+                    </button>
+                    <img src="tesla.png" class="wd-image-rounded">
+                    <span class="wd-font-small">
+                        <span class="m-4 fw-bold">Tesla <i class="fa fa-circle-check"></i><br></span>
+                        <span class="m-4 fw-light">@Tesla</span>
+                    </span>
+                </span>
+            </div>
+        </div>
     </div>
 </div>
-<div class="wd-class-border-trending">
-    <p class="wd-heading-text wd-offset-left">Trending in Science</p>
-    <p class="wd-topic-text-big wd-offset-left">Starship</p>
-    <p class="wd-heading-text wd-offset-left">43.2k Tuits</p>
-    <br>
-    <p class="wd-heading-text wd-offset-left">Sports Trending</p>
-    <p class="wd-topic-text-big wd-offset-left">Chicago Cubs win World Series</p>
-    <p class="wd-heading-text wd-offset-left">105.2k Tuits</p>
-</div>
-<div class="wd-class-border-2">
-    <img class="wd-image-dimensions wd-rounded-corners-10 wd-float-right wd-offset-right-16" src="youtube.jpeg">
-    <p class="wd-author-text wd-offset-left">YouTube </p>
-    <p class="wd-topic-text-big wd-offset-left">YouTube: Updates Policy on Ads, Gives Creators More Money</p>
-</div>
-<div class="wd-class-border-2">
-    <img class="wd-image-dimensions wd-rounded-corners-10 wd-float-right wd-offset-right-16" src="world-series.png">
-    <p class="wd-topic-text-small wd-offset-left">Sports • Live</p>
-    <p class="wd-topic-text-big wd-offset-left">Sports: Playoff News and Schedules Available For Download and MLB.com</p>
-</div>
-<div class="wd-class-border-2">
-    <img class="wd-image-dimensions wd-rounded-corners-10 wd-float-right wd-offset-right-16" src="twitch.png">
-    <p class="wd-author-text wd-offset-left">Twitch</p>
-    <p class="wd-topic-text-big wd-offset-left">Twitch Releases Platform Changes, Cracking Down On Gambling</p>
-</div>
-<div class="wd-class-border-2">
-    <img class="wd-image-dimensions wd-rounded-corners-10 wd-float-right wd-offset-right-16" src="bb.png">
-    <p class="wd-topic-text-small wd-offset-left">Entertainment • Live</p>
-    <p class="wd-topic-text-big wd-offset-left">Entertainment: Big Brother 24 Winner Announced, Unprecedented Outcome</p>
-</div>
-
 </body>
 </html>
