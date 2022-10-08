@@ -2,6 +2,10 @@
     color: lightgray;
 }
 
+.img-fill {
+    width: auto;
+}
+
 .wd-font-underline {
     border-bottom: cornflowerblue 6px solid;
     text-decoration: underline;
