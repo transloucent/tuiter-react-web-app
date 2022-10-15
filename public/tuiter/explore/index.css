@@ -29,6 +29,7 @@
     width: 90%;
     height: 35px;
     text-indent: 50px;
+    background: white;
 }
 
 .btn-primary.override-bs {
