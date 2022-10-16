@@ -1,3 +1,11 @@
+const tuits = (post) => {
+    if (post.tweets)
+        return `<span class="d-block fs-6 text-secondary">
+            ${post.tweets} Tuits
+        </span>`
+}
+
+
 const PostSummaryItem = (post) => {
     return(`
     <div>
@@ -12,6 +20,7 @@ const PostSummaryItem = (post) => {
             <span class="d-block text-wrap fs-6 fw-bold">
                 ${post.title}
             </span>
+            ${tuits(post)}
         </div>
     </div>
     `);

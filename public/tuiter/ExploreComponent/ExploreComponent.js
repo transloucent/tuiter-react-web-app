@@ -5,9 +5,9 @@ const ExploreComponent = () => {
         <div>
             <i class="position-absolute text-secondary m-3 fas fa-search"></i>
             <input type="text"
-               class="wd-form-control mb-2 mt-2 rounded-pill"
+               class="wd-form-control mb-2 rounded-pill"
                placeholder="Search Tuiter">
-            <a href="explore-settings.html"><i class="wd-icon-center fa-2x fas fa-gear"></i></a>
+            <a href="explore-settings.html"><i class="wd-icon-center mt-1 fa-2x fas fa-gear"></i></a>
         </div>
         <div class="d-none d-md-block">
             <ul class="nav mb-2 nav-tabs">
