@@ -1,21 +1,6 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
-import WhoToFollowListItem from "../WhoToFollowList/WhoToFollowListItem.js";
-import who from "../WhoToFollowList/who.js";
+import WhoToFollowList from "../WhoToFollowList/index.js";
 import ExploreComponent from "../ExploreComponent/ExploreComponent.js";
-
-const WhoToFollowList = () => {
-    return (`
-        <ul class="list-group">
-            <span class="list-group-item fs-6 fw-bold">Who to Follow</span>
-            ${WhoToFollowListItem(who[0])}
-            ${WhoToFollowListItem(who[1])}
-            ${WhoToFollowListItem(who[2])}
-            ${WhoToFollowListItem(who[3])}
-            ${WhoToFollowListItem(who[4])}
-        </ul>
-    `);
-}
-$(WhoToFollowList);
 
 function exploreComponent() {
     $('#wd-explore').append(`
@@ -23,7 +8,7 @@ function exploreComponent() {
         <div class="row mt-2">
             <div class="col-2 col-md-2 col-lg-1 col-xl-2">
             <!--<h3>Navigation Sidebar</h3>-->
-            ${NavigationSidebar()}
+            ${NavigationSidebar('explore')}
             </div>
             <div class="col-10 col-lg-7 col-xl-6 text-white">
             <!--<h3>ExploreComponent</h3>-->

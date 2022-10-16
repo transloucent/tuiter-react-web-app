@@ -1,13 +1,17 @@
 import PostSummaryItem from "./PostSummaryItem.js";
 import post from "./posts.js";
 
+function summaryLoop() {
+    let code = ""
+    for (let i = 0; i < post.length; i++)
+        code += `${PostSummaryItem(post[i])}`
+    return code
+}
+
 const PostSummaryList = () => {
     return (`
         <ul class="list-group">
-            ${PostSummaryItem(post[0])}
-            ${PostSummaryItem(post[1])}
-            ${PostSummaryItem(post[2])}
-            ${PostSummaryItem(post[3])}
+            ${summaryLoop()}
         </ul>
     `);
 }
