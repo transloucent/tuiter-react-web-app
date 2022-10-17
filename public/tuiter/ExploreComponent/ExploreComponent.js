@@ -7,7 +7,7 @@ const ExploreComponent = () => {
             <input type="text"
                class="wd-form-control mb-2 rounded-pill"
                placeholder="Search Tuiter">
-            <a href="explore-settings.html"><i class="wd-icon-center fa-2x fas fa-gear"></i></a>
+            <a href="explore-settings.html"><i class="position-absolute float-right ms-3 fa-2x fas fa-gear"></i></a>
         </div>
         <div class="d-none d-md-block">
             <ul class="nav mb-2 nav-tabs">
