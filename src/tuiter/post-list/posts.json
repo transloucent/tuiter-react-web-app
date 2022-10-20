@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 123,
+    "avatarIcon": "../../images/spacex.jpeg",
+    "username": "SpaceX",
+    "handle": "@SpaceX",
+    "time": "23h",
+    "description": "Dennis and Akiko Tito are the first two crew members on Starship's second commercial spaceflight around the moon -> ",
+    "descriptionLink": "spacex.com/updates",
+    "image": "../../images/countdown.jpeg",
+    "imageTitle": "",
+    "imageDescription": "",
+    "replies": "4.2K",
+    "retuits": "3.5K",
+    "likes": "37.5K"
+  },
+  {
+    "_id": 234,
+    "avatarIcon": "../../images/ny-post.png",
+    "username": "NY Post",
+    "handle": "@nypost",
+    "time": "23h",
+    "description": "Grimes seen reading Karl Marx following split with world's richest man, Elon Musk ",
+    "descriptionLink": "trib.al/nx2Gfaq",
+    "image": "../../images/grimes.jpeg",
+    "imageTitle": "",
+    "imageDescription": "",
+    "replies": "965",
+    "retuits": "2.4K",
+    "likes": "4K"
+  }
+]
