@@ -5,17 +5,21 @@ import {addTodo, deleteTodo, todoDoneToggle} from "./reducers/todos-reducer";
 const Todos = () => {
     const todos =
         useSelector(state => state.todos);
+
     const [todo, setTodo] = useState({do: ''});
     const dispatch = useDispatch();
     const toggleTodoDone = (todo) => {
         dispatch(todoDoneToggle(todo))
     }
+
     const deleteTodoClickHandler = (index) => {
         dispatch(deleteTodo(index))
     }
+
     const createTodoClickHandler = () => {
         dispatch(addTodo(todo))
     }
+
     const todoChangeHandler = (event) => {
         const doValue = event.target.value;
         const newTodo = {
@@ -23,6 +27,7 @@ const Todos = () => {
         };
         setTodo(newTodo);
     }
+
     return(
         <>
             <h3>Todos</h3>

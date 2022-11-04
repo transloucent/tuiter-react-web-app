@@ -1,0 +1,9 @@
+textarea {
+    width: 100%;
+}
+
+.wd-nudge-up {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
