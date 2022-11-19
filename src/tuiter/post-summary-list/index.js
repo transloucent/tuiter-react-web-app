@@ -11,7 +11,7 @@ const PostSummaryList = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(findTuitsThunk())
-    });
+    }, []);
 
     return(
         <>
