@@ -9,7 +9,7 @@ const ExploreComponent = () => {
                 <div className="col-11 position-relative">
                     <input placeholder="Search Tuiter"
                            className="form-control rounded-pill ps-5"/>
-                    <i className="bi bi-search position-absolute
+                    <i className="bi bi-search position-absolute p-2
                        wd-nudge-up"></i>
                 </div>
                 <div className="col-1">

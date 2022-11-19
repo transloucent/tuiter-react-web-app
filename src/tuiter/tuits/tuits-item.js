@@ -1,11 +1,12 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../reducers/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitsItem = (
     {
         tuit = {
+            _id: 123,
             topic: 'Space',
             userName: "SpaceX",
             time: "2h",
@@ -15,6 +16,8 @@ const TuitsItem = (
             replies: 123,
             retuits: 432,
             likes: 2345,
+            dislikes: 0,
+            disliked: false,
             handle: "@spacex",
             tuit: "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
         }
@@ -22,7 +25,7 @@ const TuitsItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return(
@@ -40,10 +43,13 @@ const TuitsItem = (
                     <div className="ms-3 fw-normal text-wrap">{tuit.tuit}</div>
                 </div>
                 <TuitStats
+                    id={tuit._id}
                     liked={tuit.liked}
                     replies={tuit.replies}
                     retuits={tuit.retuits}
                     likes={tuit.likes}
+                    dislikes={tuit.dislikes}
+                    disliked={tuit.disliked}
                 />
             </div>
         </div>
