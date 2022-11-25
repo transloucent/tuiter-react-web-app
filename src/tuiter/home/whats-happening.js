@@ -8,13 +8,13 @@ const WhatsHappening = () => {
     const tuitClickHandler = () => {
         const newTuit = {
             tuit: whatsHappening,
-            _id: (new Date()).getTime(),
             userName: 'NASA',
             handle: '@nasa',
             topic: 'Space',
             image: 'nasa.jpg',
             time: '2h',
             likes: 0,
+            liked: false,
             replies: 0,
             retuits: 0,
             dislikes: 0,
